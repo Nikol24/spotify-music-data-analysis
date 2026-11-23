@@ -194,6 +194,20 @@ The clustering pipeline generates:
 
 These files are generated when the scripts are executed successfully.
 
+## Generated Outputs
+
+These files are generated when the scripts are executed successfully.
+
+## Results & Visualizations
+(Τα 7 γραφήματα)
+
+## Key Findings — Music Clustering
+(Τα συμπεράσματα για τα 2 clusters)
+
+## Limitations
+
+## Author
+
 ## Limitations
 
 - Spotify popularity scores can change over time.
