@@ -339,6 +339,73 @@ Nevertheless, the relatively low Silhouette Score demonstrates the limitations o
 
 The analysis illustrates how unsupervised machine learning can be used to explore patterns in music data, while also emphasizing the importance of evaluating and interpreting model outputs critically.
 
+
+## Key Findings — Exploratory Data Analysis
+
+### Audio Feature Correlations
+
+The Pearson correlation analysis revealed several
+notable relationships between audio features:
+
+- Energy and loudness: r = 0.761
+- Energy and acousticness: r = -0.733
+- Loudness and acousticness: r = -0.588
+- Danceability and valence: r = 0.477
+
+Energy and loudness exhibited a strong positive
+linear correlation, while energy and acousticness
+showed a strong negative correlation.
+
+These findings suggest that tracks with higher
+energy tend to be louder and less acoustic
+within the analyzed dataset.
+
+### Popularity and Audio Features
+
+Popularity showed weak linear relationships with
+the examined audio characteristics.
+
+Examples include:
+
+- Popularity and instrumentalness: r = -0.095
+- Popularity and energy: r = -0.002
+- Popularity and danceability: r = 0.034
+- Popularity and loudness: r = 0.047
+
+These results indicate that individual audio
+features have limited linear association with
+popularity in this dataset.
+
+However, weak linear correlations do not rule out
+nonlinear relationships or interactions between
+multiple features.
+
+### Most Popular Music Genres
+
+The three genres with the highest average
+popularity scores were:
+
+1. Pop-film: 59.28
+2. K-pop: 56.96
+3. Chill: 53.70
+
+These results reflect average popularity scores
+within the analyzed dataset and should not be
+interpreted as current global Spotify rankings.
+
+### Overall EDA Interpretation
+
+The analysis identified clear relationships among
+several audio characteristics, particularly energy,
+loudness, acousticness, and valence.
+
+In contrast, popularity was not strongly linearly
+associated with any single examined audio feature.
+
+This highlights the importance of considering
+additional variables and potentially nonlinear
+methods when investigating music popularity.
+
 ## Limitations
 
 - Spotify popularity scores are time-dependent and can change.
